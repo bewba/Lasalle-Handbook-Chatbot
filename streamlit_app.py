@@ -17,7 +17,7 @@ PDF_PATH = "student-handbook.pdf"
 INDEX_FILE = "handbook.index"
 CHUNKS_FILE = "handbook_chunks.pkl"
 
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+embedder = SentenceTransformer("all-MiniLM-L6-v2", device='cpu')
 st.set_page_config(page_title="Lasallian Handbook Chatbot", layout="wide")
 st.title("📘 Which DLSU rule am I breaking?")
 
