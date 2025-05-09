@@ -1,12 +1,12 @@
 import os
 import streamlit as st
 import numpy as np
-import faiss
 import pickle
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 import pdfplumber
 import google.generativeai as genai
+import faiss
 
 load_dotenv()
 API_KEYS = [os.getenv("GEMINI_API_KEY_1")]
