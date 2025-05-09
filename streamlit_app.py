@@ -24,7 +24,7 @@ st.set_page_config(
     page_icon="🏫",
     layout="wide"
 )
-st.markdown("Welcome to ArcherAsks — Ask questions about the Lasallian handbook and get instant answers!", unsafe_allow_html=True)
+st.set_page_config(meta = 'i hate reading so i made this chatbot so i have to read less.')
 
 st.title("📘 Which DLSU rule am I breaking?")
 
