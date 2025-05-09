@@ -19,7 +19,7 @@ CHUNKS_FILE = "handbook_chunks.pkl"
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 st.set_page_config(page_title="Lasallian Handbook Chatbot", layout="wide")
-st.title("📘 Lasallian Handbook Assistant")
+st.title("📘 Which DLSU rule am I breaking")
 
 # Function to extract chunks from PDF asynchronously
 def extract_chunks_from_pdf(pdf_path, max_words=500):
@@ -67,6 +67,7 @@ def ask_gemini(question, context_chunks):
 You are a Lasallian student disciplinary officer.
 Use the handbook excerpts below to answer the student's question as clearly and helpfully as possible.
 Please use context clues from the handbook to support your answer.
+Make the response funny and engaging, but also informative.
 
 --- Handbook Context ---
 {context}
