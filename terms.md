@@ -19,6 +19,7 @@ By accessing or using this Service, you agree to the following terms:
 ## 2. Data Handling
 
 - No user data is stored or shared. Questions and responses are processed live and are not retained.
+- The only data is store is how many users visit the site and how long they visit (this is because the job market is tough and my resume is dry)
 
 ---
 
@@ -45,4 +46,4 @@ By accessing or using this Service, you agree to the following terms:
 
 If you have questions or concerns, contact us at **hans_lumagui@dlsu.edu.ph**.
 
-##### Note from the creator: if this sucks, its cuz i made this in like 2 hours
+##### Note from the creator: if this sucks, its cuz i made this in like 2-4 hours
