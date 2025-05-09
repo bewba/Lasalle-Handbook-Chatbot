@@ -24,7 +24,9 @@ st.set_page_config(
     page_icon="🏫",
     layout="wide"
 )
-st.set_page_config(meta = 'i hate reading so i made this chatbot so i have to read less.')
+st.markdown("""
+    <meta name="description" content="i hate reading so i made this chatbot so i have to read less.">
+""", unsafe_allow_html=True)
 
 st.title("📘 Which DLSU rule am I breaking?")
 
