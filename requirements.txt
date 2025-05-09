@@ -1,9 +1,8 @@
 streamlit
-numpy
 faiss-cpu
-pickle5
+numpy
+pickle-mixin
 python-dotenv
 sentence-transformers
 pdfplumber
 google-generativeai
-Pillow
