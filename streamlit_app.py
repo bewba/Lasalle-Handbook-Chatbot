@@ -19,7 +19,13 @@ CHUNKS_FILE = "handbook_chunks.pkl"
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 embedder = embedder.to("cpu")
-st.set_page_config(page_title="Lasallian Handbook Chatbot", layout="wide")
+st.set_page_config(
+    page_title="ArcherAsks – Lasallian Handbook Q&A",
+    page_icon="🏫",
+    layout="wide"
+)
+st.markdown("Welcome to ArcherAsks — Ask questions about the Lasallian handbook and get instant answers!", unsafe_allow_html=True)
+
 st.title("📘 Which DLSU rule am I breaking?")
 
 # --- Session State Init ---
