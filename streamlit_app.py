@@ -19,7 +19,7 @@ CHUNKS_FILE = "handbook_chunks.pkl"
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 st.set_page_config(page_title="Lasallian Handbook Chatbot", layout="wide")
-st.title("📘 Which DLSU rule am I breaking")
+st.title("📘 Lasallian Handbook Assistant")
 
 # Function to extract chunks from PDF asynchronously
 def extract_chunks_from_pdf(pdf_path, max_words=500):
