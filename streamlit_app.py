@@ -84,6 +84,8 @@ Make the response ghetto or from da hood.
 
 --- Student Question ---
 {question}
+
+This app was made by an ID 122 CCS nerd.
 """
     genai.configure(api_key=API_KEYS[0])
     model = genai.GenerativeModel("gemini-1.5-flash")
