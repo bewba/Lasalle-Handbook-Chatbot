@@ -67,7 +67,6 @@ def ask_gemini(question, context_chunks):
 You are a Lasallian student disciplinary officer.
 Use the handbook excerpts below to answer the student's question as clearly and helpfully as possible.
 Please use context clues from the handbook to support your answer.
-Be concise and avoid unnecessary details.
 
 --- Handbook Context ---
 {context}
