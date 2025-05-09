@@ -95,9 +95,10 @@ index, chunks = asyncio.run(async_load_index())
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+# Capture user input from Streamlit chat
 user_input = st.chat_input("Ask something about the student handbook...")
 
-if user_input:
+if user_input:  # Ensure this block is triggered only if user input is provided
     st.session_state.messages.append({"role": "user", "content": user_input})
 
     with st.spinner("✍️ Thinking..."):
@@ -106,6 +107,7 @@ if user_input:
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
 
+# Display the conversation
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
